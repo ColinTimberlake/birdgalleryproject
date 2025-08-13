@@ -1,0 +1,56 @@
+html{
+    display: flex;
+    font-size: 24px;
+    line-height: 2.0;
+    color: #333;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+h1, h2, h3 {
+    color: #2c3e50;
+}
+
+p {
+    margin: 0 0 1em;
+}
+
+.image-container img {
+    width: 200px;
+    height: 200px;
+    border-radius: 8px;
+    margin: 10px;
+}
+.birdCards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.birdCard {
+    background-color: green;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.birdCard img {
+    width: 400px;
+    height: 400px;
+    border-radius: 8px;
+}
+
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
