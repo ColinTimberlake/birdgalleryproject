@@ -1,0 +1,21 @@
+[
+    {
+        "name": "Northen Mockingbird",
+        "description": "A Medium-sized slender songbird with a long tail",
+        "Location": "Nashville, Tennessee",
+        "image_url": "./resources/images/bird1.jpg"
+    },
+    {
+        "name": "Northen Cardinal",
+        "description": "Fairly Large, Long-Tailed Songbird with a short, very thick bill and a prominent crest",
+        "Location": "Nashville, Tennessee",
+        "image_url": "./resources/images/bird2.jpg"
+    },
+    {
+        "name": "Carolina Wren",
+        "description": "small but chunky bird with a round body and a long tail that it often cocks upward.",
+        "Location": "Nashville, Tennessee",
+        "image_url": "./resources/images/bird3.jpg"
+    }
+    
+]
