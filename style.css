@@ -20,14 +20,9 @@ p {
     margin: 0 0 1em;
 }
 
-.image-container img {
-    width: 200px;
-    height: 200px;
-    border-radius: 8px;
-    margin: 10px;
-}
 
-.image-container img:hover {
+
+.birdCard:hover {
     transform: scale(1.5);
     transition: transform 1s ease-in;
 }
@@ -38,7 +33,7 @@ p {
     justify-content: start;
     padding: 20px;
     height:auto;
-    width: 1800px;
+    width: auto;
 }
 
 .birdCard {
@@ -50,7 +45,7 @@ p {
     padding: 20px;
     margin: 20px;
     box-shadow: 30px 20px 30px black;
-    max-width:20%;
+    max-width:25%;
     text-align: center;
 }
 
@@ -60,29 +55,16 @@ p {
     border-radius: 8px;
 }
 
-.image-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding: 20px;
-}
+
 
 @media only screen and (max-width: 800px) {
 
     html {
         font-size: 16px;
     }
-    .image-container {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: start;
-    }
-    .image-container img {
-        width: 100px;
-        height: 100px;
-    }
+  
 
-    .image-container img:hover {
+    .birdCard:hover {
     transform: scale(1.5);
     transition: transform 1s ease-in;
 }
@@ -101,26 +83,18 @@ p {
     .birdCards {
         display:block;
         flex-wrap: wrap;
-        width: 500px;
+        width: auto;
     }
 }
 
 @media only screen and (max-width: 500px) {
-    .image-container img {
-        width: 80px;
-        height: 80px;
-    }
+    
 
     html {
         font-size: 16px;
     }
-    .image-container {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: start;
-    }
 
-    .image-container img:hover {
+    .birdCard:hover {
     transform: scale(1.5);
     transition: transform 1s ease-in;
 }
@@ -138,6 +112,6 @@ p {
     .birdCards {
         display:block;
         flex-wrap: wrap;
-        width: 1000px;
+        width: auto;
     }
 }

@@ -1,17 +1,16 @@
-fetch('birds.json')
+fetch('./birds.json') // Fetch the JSON data from the server
     .then(response => response.json())
     .then(birds => {
-        const gallery = document.getElementById('bird-gallery');
+        const birdy = document.getElementsByClassName('birdCards')[0];
         birds.forEach(bird => {
             const card = document.createElement('div');
-            card.className = 'bird-card';
+            card.className = 'birdCard';
             card.innerHTML = `
                 <img src="${bird.image_url}" alt="${bird.name}">
                 <h2>${bird.name}</h2>
-                <p><em>${bird.scientific_name}</em></p>
                 <p>${bird.description}</p>
-                <p><strong>Habitat:</strong> ${bird.habitat}</p>
+                <p><strong>Location:</strong> ${bird.Location}</p>
             `;
-            gallery.appendChild(card);
+            birdy.appendChild(card);
         });
     });
